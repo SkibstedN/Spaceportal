@@ -60,6 +60,20 @@ p {
     object-fit: fill;
 }
 
+.infobutton{
+    height: 35px;
+    width: 70px;
+    background-color: #a9a9a9;
+
+}
+
+.tooltip-inner
+                    {
+                        width:200px;
+                        height:auto; 
+                        padding:4px;
+                    }
+
 h1{
     color: white;
     text-align:center;

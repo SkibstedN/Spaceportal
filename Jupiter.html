@@ -19,5 +19,16 @@
 
 <div class="div1"><img src="Images/jupiter-png-10921.png" alt="Image"></div>
 
+<button class="infobutton" data-bs-toggle="tooltip" title="JUPITER IS MADE OF CHEESE. THERE IS A PROBLEM WITH SPACEWORMS HERE.">INFO</button>
+
+
+<script>
+    let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>
+
+
 </body>
 </html>
